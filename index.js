@@ -10,21 +10,21 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 console.log(`
-█████╗ ██╗   ██╗████████╗ ██████╗       ██████╗ ██╗   ██╗███╗   ███╗██████╗ 
-██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗      ██╔══██╗██║   ██║████╗ ████║██╔══██╗
-███████║██║   ██║   ██║   ██║   ██║█████╗██████╔╝██║   ██║██╔████╔██║██████╔╝
-██╔══██║██║   ██║   ██║   ██║   ██║╚════╝██╔══██╗██║   ██║██║╚██╔╝██║██╔═══╝ 
-██║  ██║╚██████╔╝   ██║   ╚██████╔╝      ██████╔╝╚██████╔╝██║ ╚═╝ ██║██║
+   █████╗ ██╗   ██╗████████╗ ██████╗       ██████╗ ██╗   ██╗███╗   ███╗██████╗ 
+   ██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗      ██╔══██╗██║   ██║████╗ ████║██╔══██╗
+   ███████║██║   ██║   ██║   ██║   ██║█████╗██████╔╝██║   ██║██╔████╔██║██████╔╝
+   ██╔══██║██║   ██║   ██║   ██║   ██║╚════╝██╔══██╗██║   ██║██║╚██╔╝██║██╔═══╝ 
+   ██║  ██║╚██████╔╝   ██║   ╚██████╔╝      ██████╔╝╚██████╔╝██║ ╚═╝ ██║██║
                                BY APOLOJIZE                                                                                                                               
 `)
 setTitle("Auto-bump by Apolojize");
-if(!token) {console.log('Token invalid (config.json)'.red)}
-console.log("[!] Connecting ...".cyan)
+if(!token) {console.log('   Token invalid (config.json)'.red)}
+console.log("   [!] Connecting ...".cyan)
 client.on('ready', async() => {
-  console.log(`[!] Logged in ${client.user.tag} (${client.user.id})`.cyan)
-  let channelids =  await question('[?] What\'s is the channel id ? '.cyan);
+  console.log(`   [!] Logged in ${client.user.tag} (${client.user.id})`.cyan)
+  let channelids =  await question('   [?] What\'s is the channel id ? '.cyan);
   const channel = client.channels.cache.get(channelids);
-  if(!channel) {console.log('Channel invalid.'.red)}
+  if(!channel) {console.log('   Channel invalid.'.red)}
   channel.send("!d bump")
   setInterval(async () => {
     channel.send("!d bump")
