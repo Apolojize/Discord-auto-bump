@@ -15,3 +15,5 @@ npm i readline
 
 After that just _start_ and **enjoy** !
 **You can start in vscode or using the file `start.bat`**
+
+**You _discord_ server : https://discord.gg/apolojize**
