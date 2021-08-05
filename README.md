@@ -20,3 +20,6 @@ After that just _start_ and **enjoy** !
 **You can start in vscode or using the file `start.bat`**
 
 **You _discord_ server : https://discord.gg/apolojize**
+
+![image](https://user-images.githubusercontent.com/84992745/128404525-d4955a64-9069-4a73-8504-3ff6d7ed3dda.png)
+
