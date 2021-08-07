@@ -29,8 +29,10 @@ client.on('ready', async() => {
   const channel = client.channels.cache.get(channelids);
   if(!channel) {console.log('   Channel invalid.'.red)}
   channel.send("!d bump")
+  console.log("Bumped.".green)
   setInterval(async () => {
     channel.send("!d bump")
+    console.log("Bumped.".green)
   }, 7200000)
 })
     client.login(token);
