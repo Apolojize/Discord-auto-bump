@@ -1,4 +1,5 @@
 /*Created by Apolojize*/
+/*https://discord.gg/apolojize*/
 
 const Discord = require("discord.js-self");
 var setTitle = require('console-title');
