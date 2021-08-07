@@ -1,3 +1,5 @@
+/*Created by Apolojize*/
+
 const Discord = require("discord.js-self");
 var setTitle = require('console-title');
 const {token} = require("./config.json");
