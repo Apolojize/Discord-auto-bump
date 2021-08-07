@@ -28,7 +28,7 @@ client.on('ready', async() => {
   channel.send("!d bump")
   setInterval(async () => {
     channel.send("!d bump")
-  }, 726000)
+  }, 7200000)
 })
     client.login(token);
 
